@@ -10,7 +10,7 @@ public class QuizMasterApplication extends SpringBootServletInitializer{
 
 		 @Override
 	    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-	         return application.sources(SpringdemoappApplication.class);
+	         return application.sources(QuizMasterApplication.class);
 	    }
 	
 	public static void main(String[] args) {
